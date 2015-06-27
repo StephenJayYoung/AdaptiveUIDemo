@@ -13,6 +13,9 @@
 		A7B753811B3E45240059E903 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7B753801B3E45240059E903 /* Images.xcassets */; };
 		A7B753841B3E45240059E903 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7B753821B3E45240059E903 /* LaunchScreen.xib */; };
 		A7B753901B3E45240059E903 /* AdaptiveUIDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B7538F1B3E45240059E903 /* AdaptiveUIDemoTests.swift */; };
+		A7B7539D1B3E488F0059E903 /* tshirt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7B7539A1B3E488F0059E903 /* tshirt.jpg */; };
+		A7B7539E1B3E488F0059E903 /* tshirt@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7B7539B1B3E488F0059E903 /* tshirt@2x.jpg */; };
+		A7B7539F1B3E488F0059E903 /* tshirt@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7B7539C1B3E488F0059E903 /* tshirt@3x.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		A7B753891B3E45240059E903 /* AdaptiveUIDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdaptiveUIDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7B7538E1B3E45240059E903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7B7538F1B3E45240059E903 /* AdaptiveUIDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveUIDemoTests.swift; sourceTree = "<group>"; };
+		A7B7539A1B3E488F0059E903 /* tshirt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tshirt.jpg; sourceTree = "<group>"; };
+		A7B7539B1B3E488F0059E903 /* tshirt@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tshirt@2x.jpg"; sourceTree = "<group>"; };
+		A7B7539C1B3E488F0059E903 /* tshirt@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tshirt@3x.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 				A7B7537B1B3E45240059E903 /* ViewController.swift */,
 				A7B7537D1B3E45240059E903 /* Main.storyboard */,
 				A7B753801B3E45240059E903 /* Images.xcassets */,
+				A7B753991B3E488F0059E903 /* adaptiveui-images */,
 				A7B753821B3E45240059E903 /* LaunchScreen.xib */,
 				A7B753771B3E45240059E903 /* Supporting Files */,
 			);
@@ -110,6 +117,17 @@
 				A7B7538E1B3E45240059E903 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7B753991B3E488F0059E903 /* adaptiveui-images */ = {
+			isa = PBXGroup;
+			children = (
+				A7B7539A1B3E488F0059E903 /* tshirt.jpg */,
+				A7B7539B1B3E488F0059E903 /* tshirt@2x.jpg */,
+				A7B7539C1B3E488F0059E903 /* tshirt@3x.jpg */,
+			);
+			name = "adaptiveui-images";
+			path = "../../../Downloads/adaptiveui-images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +210,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7B7539E1B3E488F0059E903 /* tshirt@2x.jpg in Resources */,
 				A7B7537F1B3E45240059E903 /* Main.storyboard in Resources */,
 				A7B753841B3E45240059E903 /* LaunchScreen.xib in Resources */,
 				A7B753811B3E45240059E903 /* Images.xcassets in Resources */,
+				A7B7539D1B3E488F0059E903 /* tshirt.jpg in Resources */,
+				A7B7539F1B3E488F0059E903 /* tshirt@3x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
